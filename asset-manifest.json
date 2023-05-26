@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/LesiaUKR/GoIT-REACT-HW-08-phonebook_login/static/css/main.7acaea2f.css",
+    "main.js": "/LesiaUKR/GoIT-REACT-HW-08-phonebook_login/static/js/main.07d3183d.js",
+    "index.html": "/LesiaUKR/GoIT-REACT-HW-08-phonebook_login/index.html",
+    "main.7acaea2f.css.map": "/LesiaUKR/GoIT-REACT-HW-08-phonebook_login/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/LesiaUKR/GoIT-REACT-HW-08-phonebook_login/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
