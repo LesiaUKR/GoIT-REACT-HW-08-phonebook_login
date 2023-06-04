@@ -7,8 +7,8 @@ export const Item = styled.div`
   width: 100%;
   margin-bottom: 20px;
   transition: border-bottom 250ms linear;
-    :hover > svg {
-      transition: color 250ms linear;
-      color: #005ae0;
-    }  
+  :hover > svg {
+    transition: color 250ms linear;
+    color: #005ae0;
+  }
 `;

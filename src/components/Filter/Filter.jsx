@@ -18,7 +18,13 @@ export const Filter = () => {
       <Typography
         variant="h6"
         gutterBottom
-        sx={{ width: '292px', mb: 0, mt: 1, fontFamily: 'revert' }}
+        sx={{
+          width: '292px',
+          mb: 0,
+          mt: 1,
+          fontFamily: 'revert',
+          textAlign: 'center',
+        }}
       >
         Filter
       </Typography>

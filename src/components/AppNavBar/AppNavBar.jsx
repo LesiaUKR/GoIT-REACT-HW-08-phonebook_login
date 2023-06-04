@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 export const AppNavBar = () => {
   const { isLoggedIn } = useAuth();
-  console.log(isLoggedIn);
+
   return (
     <AppBar>
       <Toolbar>

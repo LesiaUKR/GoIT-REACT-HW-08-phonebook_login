@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { NavLink } from "react-router-dom";
+import styled from 'styled-components';
+import { NavLink } from 'react-router-dom';
 
 export const MenuLink = styled(NavLink)`
   display: inline-flex;
@@ -13,7 +13,7 @@ export const MenuLink = styled(NavLink)`
   :hover {
     transition: text-shadow 250ms linear;
     text-shadow: 1px 1px 2px black;
-  } 
+  }
   &.active {
     text-shadow: 1px 1px 2px black;
     border-bottom: 1px solid #1cb6cd;

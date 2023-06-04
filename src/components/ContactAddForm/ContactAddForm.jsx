@@ -120,8 +120,6 @@ export const ContactAddForm = () => {
       >
         Add contact
       </Button>
-
-      {/* <ToastContainer position="top-center" autoClose={1500} /> */}
     </Box>
   );
 };
