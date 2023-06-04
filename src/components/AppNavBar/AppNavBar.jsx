@@ -1,4 +1,4 @@
-import { AppBar, Box, Toolbar, Typography } from '@mui/material';
+import { AppBar, Box, Container, Toolbar, Typography } from '@mui/material';
 import ContactPhoneIcon from '@mui/icons-material/ContactPhone';
 import { AuthNav } from 'components/AuthNav/AuthNav';
 import { useAuth } from 'hooks/useAuth';
@@ -11,37 +11,39 @@ export const AppNavBar = () => {
 
   return (
     <AppBar>
-      <Toolbar>
-        <Typography
-          variant="h5"
-          noWrap
-          component={Link}
-          to="/"
-          sx={{
-            mr: 5,
-            mb: 1,
-            display: { xs: 'none', md: 'flex' },
-            flexGrow: 1,
-            fontFamily: 'revert-layer',
-            fontWeight: 500,
-            color: 'inherit',
-            textDecoration: 'none',
-          }}
-        >
-          <ContactPhoneIcon sx={{ color: '#fff', pr: 1, mt: 0.5 }} />
-          Phonebook
-        </Typography>
-        <Box
-          sx={{
-            flexGrow: 24,
-            fontWeight: 700,
-            textDecoration: 'none',
-          }}
-        >
-          <Navigation />
-        </Box>
-        {isLoggedIn ? <UserMenu /> : <AuthNav />}
-      </Toolbar>
+      <Container>
+        <Toolbar>
+          <Typography
+            variant="h5"
+            noWrap
+            component={Link}
+            to="/"
+            sx={{
+              mr: 5,
+              mb: 1,
+              display: { xs: 'none', md: 'flex' },
+              flexGrow: 1,
+              fontFamily: 'revert-layer',
+              fontWeight: 500,
+              color: 'inherit',
+              textDecoration: 'none',
+            }}
+          >
+            <ContactPhoneIcon sx={{ color: '#fff', pr: 1, mt: 0.5 }} />
+            Phonebook
+          </Typography>
+          <Box
+            sx={{
+              flexGrow: 24,
+              fontWeight: 700,
+              textDecoration: 'none',
+            }}
+          >
+            <Navigation />
+          </Box>
+          {isLoggedIn ? <UserMenu /> : <AuthNav />}
+        </Toolbar>
+      </Container>
     </AppBar>
   );
 };
