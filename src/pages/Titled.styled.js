@@ -30,31 +30,6 @@ export const Main = styled.main`
   align-items: center;
   padding-top: 64px;  
 `
-export const HeroSection = styled.section`
-  margin-top: 60px;
-  @media screen and (min-width: 768px) {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-  }
-  @media screen and (min-width: 921px) {
-    gap: 50px;
-  }
-`;
-
-export const Img = styled.img`
-  width: 100%;
-  height: 500px;
-  object-fit: cover;
-  object-position: 87% 50%;
-  border-radius: 20px;
-  @media screen and (max-width: 920px) {
-    height: 400px;
-  }
-  @media screen and (max-width: 479px) {
-    height: 300px;
-  }
-`;
 
 export const ContentTitle = styled.h2`
   font-size: 24px;
